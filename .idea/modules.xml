@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
       <module fileurl="file://$PROJECT_DIR$/je_carrentals.iml" filepath="$PROJECT_DIR$/je_carrentals.iml" />
-      <module fileurl="file://$PROJECT_DIR$/postgres/postgres.iml" filepath="$PROJECT_DIR$/postgres/postgres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Database/postgres.iml" filepath="$PROJECT_DIR$/Database/postgres.iml" />
     </modules>
   </component>
 </project>

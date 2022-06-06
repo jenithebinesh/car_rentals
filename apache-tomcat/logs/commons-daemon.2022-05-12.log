@@ -1,0 +1,9 @@
+[2022-05-12 20:36:40] [info]  [17340] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-05-12 20:36:40] [info]  [17340] Running Service 'Tomcat'...
+[2022-05-12 20:36:40] [info]  [17124] Starting service...
+[2022-05-12 20:36:49] [info]  [17124] Service started in 8706 milliseconds.
+[2022-05-20 18:12:01] [info]  [15872] Console SHUTDOWN event signaled.
+[2022-05-20 18:12:01] [info]  [15872] Stopping service...
+[2022-05-20 18:12:02] [info]  [15872] Service stop thread completed.
+[2022-05-20 18:12:02] [info]  [17340] Run service finished.
+[2022-05-20 18:12:02] [info]  [17340] Apache Commons Daemon procrun finished.

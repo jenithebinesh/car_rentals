@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+.txt{
+    margin-right: 30px;
+}
+.tick{
+    height:35%;
+    width:35%;
+    margin-left: 150px;
+
+
+}
+#thanks{
+    color: #009900;
+    margin-right: 200px;
+    padding-right: 110px;
+}

@@ -1,0 +1,48 @@
+
+2022-05-03 20:51:15 Apache Commons Daemon procrun stderr initialized.
+03-May-2022 20:51:19.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\jdk\jre
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0-262-b10
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\apache-tomcat\endorsed
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat\temp
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat\conf\logging.properties
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+03-May-2022 20:51:19.655 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2022 20:51:19.664 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+03-May-2022 20:51:21.180 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2022 20:51:21.459 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-May-2022 20:51:21.468 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3312 ms
+03-May-2022 20:51:21.523 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2022 20:51:21.523 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+03-May-2022 20:51:21.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat\webapps\docs]
+03-May-2022 20:51:21.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat\webapps\docs] has finished in [312] ms
+03-May-2022 20:51:21.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat\webapps\examples]
+03-May-2022 20:51:23.129 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat\webapps\examples] has finished in [1,278] ms
+03-May-2022 20:51:23.129 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat\webapps\host-manager]
+03-May-2022 20:51:23.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat\webapps\host-manager] has finished in [42] ms
+03-May-2022 20:51:23.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat\webapps\manager]
+03-May-2022 20:51:23.214 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat\webapps\manager] has finished in [43] ms
+03-May-2022 20:51:23.214 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat\webapps\ROOT]
+03-May-2022 20:51:23.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat\webapps\ROOT] has finished in [24] ms
+03-May-2022 20:51:23.246 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2022 20:51:23.254 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1780 ms
+04-May-2022 22:59:13.827 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2022 22:59:14.014 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2022 22:59:14.096 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2022 22:59:14.112 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

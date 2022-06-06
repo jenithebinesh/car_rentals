@@ -9,6 +9,7 @@ import Premium from './premium.js'
 import Hatchback from './hatchback.js'
 import Sedan from './sedan.js'
 import Booknow1 from './booknow1.js'
+import Thanks from './thanks.js'
 
 import {BrowserRouter as Router,Route,Routes,Link} from "react-router-dom";
 
@@ -26,6 +27,7 @@ function App(){
                 <Route path='/hatchback' element={<Hatchback/>}/>
                 <Route path='/sedan' element={<Sedan/>}/>
                 <Route path='/booknow1' element={<Booknow1/>}/>
+                <Route path='/thanks' element={<Thanks/>}/>
 
 
             </Routes>

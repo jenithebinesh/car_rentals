@@ -9,103 +9,111 @@ function Suv() {
     return(
         React.createElement("html", {
             lang: "en"
-        },React.createElement("head", null,React.createElement("meta", {
+        }, React.createElement("head", null, React.createElement("meta", {
             charSet: "UTF-8"
-        }),React.createElement("meta", {
+        }), React.createElement("meta", {
             content: "width=device-width, initial-scale=1.0",
             name: "viewport"
-        }),React.createElement("title", null, "Rentals"),React.createElement("meta", {
+        }), React.createElement("title", null, "Rentals"), React.createElement("meta", {
             content: "",
             name: "description"
-        }),React.createElement("meta", {
+        }), React.createElement("meta", {
             content: "",
             name: "keywords"
-        }),React.createElement("link", {
+        }), React.createElement("link", {
             rel: "stylesheet",
             type: "text/css",
             href: "style.css"
-        }),React.createElement("link", {
+        }), React.createElement("link", {
             rel: "stylesheet",
             type: "text/css",
             href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-        }),React.createElement("link", {
+        }), React.createElement("link", {
             rel: "stylesheet",
             type: "text/css",
             href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-        })),React.createElement("body", null,React.createElement("section", {
+        })), React.createElement("body", null, React.createElement("section", {
             className: "headerws",
             id: "header"
-        },React.createElement("div", {
+        }, React.createElement("div", {
             className: "logo"
-        },React.createElement("div", {
+        }, React.createElement("div", {
             className: "nav-bar"
-        },React.createElement("a", {
+        }, React.createElement("a", {
             href: "#"
-        }, "JE Rentals"),React.createElement("h2", null,React.createElement("span", null, "Premium"), " Corner")),React.createElement("div", {
+        }, "JE Rentals"), React.createElement("h2", null, React.createElement("span", null, "Premium"), " Corner")), React.createElement("div", {
             className: "wrapperp"
-        },React.createElement("ul", null,React.createElement(Link, {
+        }, React.createElement("ul", null, React.createElement(Link, {
             to: "/website"
-        },React.createElement("li", null, "home")),React.createElement("li", null, "Cars",React.createElement("ul", null,React.createElement(Link, {
+        }, React.createElement("li", null, "home")), React.createElement("li", null, "Cars", React.createElement("ul", null, React.createElement(Link, {
             to: "/suv"
-        },React.createElement("li", null, "SUV")),React.createElement(Link, {
+        }, React.createElement("li", null, "SUV")), React.createElement(Link, {
             to: "/premium"
-        },React.createElement("li", null, "Premium")),React.createElement(Link, {
+        }, React.createElement("li", null, "Premium")), React.createElement(Link, {
             to: "/hatchback"
-        },React.createElement("li", null, "Hatchback")),React.createElement(Link, {
+        }, React.createElement("li", null, "Hatchback")), React.createElement(Link, {
             to: "/sedan"
-        },React.createElement("li", null, "Sedan")))),React.createElement(Link, {
+        }, React.createElement("li", null, "Sedan")))), React.createElement(Link, {
             to: "/contact"
-        },React.createElement("li", null, "Contact"))))),React.createElement("div", {
+        }, React.createElement("li", null, "Contact"))))), React.createElement("div", {
             className: "pre-1"
-        },React.createElement("img", {
+        }, React.createElement("img", {
             id: "pic1",
             src: pre1
-        }),React.createElement("img", {
+        }), React.createElement("img", {
             id: "pic2",
             src: pre2
-        })),React.createElement("p", {
+        })), React.createElement("p", {
             id: "c1"
-        }, " BMW Q6 (4 Seater)"),React.createElement("p", {
+        }, " BMW Q6 (4 Seater)"), React.createElement("p", {
             id: "c2"
-        }, "Mercedez Benz A7 (4 Seater)"),React.createElement("button", {
+        }, "Mercedez Benz A7 (4 Seater)"), React.createElement(Link, {
+            to: "/booknow1"
+        }, React.createElement("button", {
             type: "Submit",
             id: "sbtbtn1"
-        }, "Book Now @1300/day"),React.createElement("button", {
+        }, "Book Now @1300/day")), React.createElement(Link, {
+            to: "/booknow1"
+        }, React.createElement("button", {
             type: "Submit",
             id: "sbtbtn1"
-        }, " Book Now @1300/day"),React.createElement("div", {
+        }, " Book Now @1300/day")), React.createElement("div", {
             className: "pre-2"
-        },React.createElement("img", {
+        }, React.createElement("img", {
             id: "pic3",
             src: pre3
-        }),React.createElement("img", {
+        }), React.createElement("img", {
             id: "pic4",
             src: pre4
-        })),React.createElement("p", {
+        })), React.createElement("p", {
             id: "c3"
-        }, "Audi A6 (4 Seater)"),React.createElement("p", {
+        }, "Audi A6 (4 Seater)"), React.createElement("p", {
             id: "c4"
-        }, "MG Hector 7 (4 Seater)"),React.createElement("button", {
+        }, "MG Hector 7 (4 Seater)"), React.createElement(Link, {
+            to: "/booknow1"
+        }, React.createElement("button", {
             type: "Submit",
             id: "sbtbtn2"
-        }, "Book Now @1300/day"),React.createElement("button", {
+        }, "Book Now @1300/day")), React.createElement(Link, {
+            to: "/booknow1"
+        }, React.createElement("button", {
             type: "Submit",
             id: "sbtbtn2"
-        }, " Book Now @1300/day"),React.createElement("div", {
+        }, " Book Now @1300/day")), React.createElement("div", {
             className: "move"
-        },React.createElement(Link, {
+        }, React.createElement(Link, {
             to: "/suv"
-        },React.createElement("button", {
+        }, React.createElement("button", {
             type: "Submit",
             id: "mb1"
-        }, "Check SUV")),React.createElement(Link, {
+        }, "Check SUV")), React.createElement(Link, {
             to: "/hatchback"
-        },React.createElement("button", {
+        }, React.createElement("button", {
             type: "Submit",
             id: "mb2"
-        }, "Check Hatchbacks")),React.createElement(Link, {
+        }, "Check Hatchbacks")), React.createElement(Link, {
             to: "/sedan"
-        },React.createElement("button", {
+        }, React.createElement("button", {
             type: "Submit",
             id: "mb3"
         }, "Check Sedans"))))))
